@@ -81,6 +81,10 @@ body {
 	grid-area: link;
 }
 
+.link:hover {
+	opacity: 0.75;
+}
+
 button {
 	cursor: pointer;
 	border-radius: 11%;
@@ -105,4 +109,9 @@ button {
 	background-color: white;
 	color: gray;
 	border: transparent;
+}
+
+.btn-cancel:hover {
+	color: black;
+	font-weight: 600;
 }
