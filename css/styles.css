@@ -8,17 +8,18 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100vw;
-	height: 100vh;
+	min-width: 100vw;
+	min-height: 100vh;
 	background-color: hsl(225, 100%, 94%);
 	background-image: url(../images/pattern-background-desktop.svg);
 	background-repeat: no-repeat;
+	padding: 25px 0;
 }
 
 .container {
 	background-color: white;
 	width: 325px;
-	border-radius: 5%;
+	border-radius: 20px;
 	overflow: hidden;
 	font-family: "Red Hat Display", sans-serif;
 	font-size: 14px;
@@ -87,7 +88,7 @@ body {
 
 button {
 	cursor: pointer;
-	border-radius: 11%;
+	border-radius: 10px;
 	font-family: inherit;
 	border: transparent 0px;
 	width: 88%;
